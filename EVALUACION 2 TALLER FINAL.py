@@ -142,7 +142,30 @@ if respuesta_evaluacion_1 == 4:
             if contador_fibonacci==2:
                 segundo=num
             if contador_fibonacci==3:
-                tercero=num
+                tercero=num 
+            if contador = fibonacci==1:
+                mayor=num
+                menor=num
+            else:
+                if num>mayor:
+                    mayor=num
+                if num<menor:
+                    menir=num
+        contador+=1
+#determinar el promedio de los pares entre fibonacci mayor y el fibonacci menor
+contador_pares=0
+suma=0
+while menor<=mayor:
+    if menor % 2==0:
+        suma+=menor
+        contador_pares+=1
+    menor=+1
+promedio=suma/contador_pares
+
+print("el promedio entre fibonacci mayor y el fibonacci")
+print("menor, solo de los pares entre estos 2 numeros ")
+print("=", promedio)
+       
 
 
 
